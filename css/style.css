@@ -1,0 +1,137 @@
+@media (max-width: 576px) {
+    .container {
+        position: fixed;
+        top: 0;
+        background-image: url("../img/BG\ home\ page\ mobile\ WEB.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100vh !important;
+        padding-left: calc(var(--bs-gutter-x) * 1) !important;
+        padding-right: calc(var(--bs-gutter-x) * 1) !important;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container-buat-pantun{
+        position: fixed;
+        top: 0;
+        background-image: url("../img/BG\ ISIAN.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100vh !important;
+    }
+    .subtitle-style {
+        color: #FDFEFF;
+        font-size: 6vw;
+        letter-spacing: 2px;
+    }
+    .title-style {
+        color: #FDFEFF;
+        font-size: 8.5vw;
+        font-weight: 500;
+        letter-spacing: 1px;
+        line-height: 80%;
+    }
+    .title-style span {
+        color: #04ADC0;
+        font-weight: bold;
+        -webkit-text-stroke: 1px #FDFEFF;
+    }
+    .caption {
+        color: #FDFEFF;
+        font-weight: 500;
+    }
+    .btn {
+        background-color: #04ADC0 !important;
+        width: 8rem;
+    }
+    .btn a {
+        text-decoration: none;
+        color: #FDFEFF !important;
+    }
+    .carousel-indicators {
+        background-color: rgba(38, 71, 88, 0.6);
+        padding: 0.25rem !important;
+        margin-left: 0 !important;
+        margin-bottom: 0 !important;
+        margin-right: 0 !important;
+    }
+    .carousel-item img {
+        border-radius: 0.5rem;
+        height: 250px;
+        object-fit: cover;
+    }
+    .head-img {
+        border-end-start-radius: 0.5rem;
+        border-end-end-radius: 0.5rem;
+        width: 100vw;
+        height: 250px;
+        object-fit: cover;
+    }
+    .title-personal-data {
+        color: #3A3D3C;
+        font-weight: 300;
+    }
+    .title-personal-data span {
+        font-weight: 500;
+    }
+    .form-personal-data {
+        font-family: 'Roboto', sans-serif;
+        padding-left: calc(var(--bs-gutter-x) * 1.5) !important;
+        padding-right: calc(var(--bs-gutter-x) * 1.5) !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+    .form-personal-data-input label{
+        font-weight: 300;
+    }
+    .form-personal-data-input input {
+        background-color: #D8E6F3;
+    }
+    .form-personal-data-control {
+        color: #FDFEFF;
+        margin-top: 31vh;
+    }
+    
+    .form-personal-data-control p {
+        margin-left: 31vw;
+        margin-bottom: 1vh;
+        color: #2D535E;
+        font-weight: bold;
+    }
+    .form-personal-data-control .ucapan-thanks {
+        margin-top: 5.6vh;
+    }
+    .form-personal-data-control .ucapan-thanks p {
+        color: #FDFEFF;
+        margin-left: 0;
+        font-weight: 300;
+        font-size: small;
+    }
+    .form-personal-data-control .ucapan-thanks p span {
+        font-weight: bold;
+    }
+    .form-personal-data-control .form-label {
+        font-size: small;
+    }
+    .form-personal-data-control input{
+        background-color: #37555D;
+        border: none;
+        height: 4vh;
+    }
+    .form-personal-data-control input::placeholder {
+        color: #FDFEFF;
+    }
+    .form-personal-data-control .isi-pantun {
+        margin-bottom: 8.1vh;
+        margin-left: 25vw;
+        background: transparent;
+        border: none;
+        overflow: auto;
+        outline: none;
+        box-shadow: none;
+        resize: none;
+        text-decoration-line: underline;
+        text-decoration-color: #2D535E;
+    }
+}
