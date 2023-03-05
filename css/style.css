@@ -1,5 +1,5 @@
 body {
-    background-image: radial-gradient(circle, #22C4C7, #178D8F) !important;
+    background-image: radial-gradient(circle, #22C4C7, #178D8F);
     font-family: GothamBook !important;
 }
 /* font */
@@ -13,10 +13,6 @@ body {
 }
 @media (max-width: 576px) {
     .container {
-        /* background-image: url("../img/BG\ mobile\ 3.jpg");
-        background-repeat: no-repeat;
-        height: 100vh;
-        background-size: cover; */
         padding-left: calc(var(--bs-gutter-x) * 1) !important;
         padding-right: calc(var(--bs-gutter-x) * 1) !important;
     }
@@ -28,6 +24,9 @@ body {
         background-repeat: no-repeat;
         background-position: center;
         height: 100vh !important;
+    }
+    .container-personal-data {
+        
     }
     .subtitle-style {
         color: #FDFEFF;
@@ -50,7 +49,7 @@ body {
     .btn {
         background-color: #04ADC0 !important;
         width: 8rem;
-        box-shadow: 0 0.125rem 0.25rem rgba(255, 255, 255,.075)!important;
+        box-shadow: 0.125rem 0.25rem rgba(0, 0, 0, 0.75);
     }
     .btn a {
         text-decoration: none;
@@ -71,7 +70,7 @@ body {
     .head-img {
         width: 100vw;
         height: 250px;
-        object-fit: cover;
+        object-fit: fill;
     }
     .banner-2 {
         height: 100px;
@@ -85,8 +84,6 @@ body {
         font-weight: 600;
     }
     .form-personal-data {
-        background-color: #FDFEFF;
-        height: 100vh;
         padding-left: calc(var(--bs-gutter-x) * 1.5) !important;
         padding-right: calc(var(--bs-gutter-x) * 1.5) !important;
         margin-left: auto !important;
