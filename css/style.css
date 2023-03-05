@@ -25,9 +25,6 @@ body {
         background-position: center;
         height: 100vh !important;
     }
-    .container-personal-data {
-        
-    }
     .subtitle-style {
         color: #FDFEFF;
     }
@@ -96,20 +93,22 @@ body {
         background-color: #D8E6F3;
     }
     .isi-pantun{
-        margin-top: 37vh;
+        position: fixed;
+        top: 36%;
     }
     .isi-pantun textarea{
         background: transparent;
-        height: 25vh;
-        border: none;
+        width: 85vw;
+        /* border: none; */
         overflow: auto;
         outline: none;
         box-shadow: none;
         resize: none;
         text-decoration-color: #2D535E;
-        font-size: larger;
+        font-size: 5vh;
         text-align: center;
-        line-height: 2.75rem;
+        line-break: auto;
+        line-height: 7vh;
     }
     .ucapan-thanks p {
         color: #FDFEFF;
