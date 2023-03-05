@@ -50,7 +50,7 @@ body {
     .btn {
         background-color: #04ADC0 !important;
         width: 8rem;
-        box-shadow: 3px 6px;
+        box-shadow: 0 0.125rem 0.25rem rgba(var(--bs-body-color-rgb),.075)!important;
     }
     .btn a {
         text-decoration: none;
