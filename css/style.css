@@ -1,20 +1,29 @@
+body {
+    background-image: radial-gradient(circle, #22C4C7, #178D8F) !important;
+    font-family: GothamBook !important;
+}
+/* font */
+@font-face {
+    font-family: GothamBook;
+    src: url("../font/GOTHAM/GothamBook.ttf");
+}
+@font-face {
+    font-family: KnockoutSumo;
+    src: url("../font/KNOCKOUT/Knockout-HTF54-Sumo.otf");
+}
 @media (max-width: 576px) {
     .container {
-        position: fixed;
-        top: 0;
-        background-image: url("../img/BG\ home\ page\ mobile\ WEB.jpg");
-        background-size: cover;
+        /* background-image: url("../img/BG\ mobile\ 3.jpg");
         background-repeat: no-repeat;
-        background-position: center;
-        height: 100vh !important;
+        height: 100vh;
+        background-size: cover; */
         padding-left: calc(var(--bs-gutter-x) * 1) !important;
         padding-right: calc(var(--bs-gutter-x) * 1) !important;
-        font-family: 'Roboto', sans-serif;
     }
     .container-buat-pantun{
         position: fixed;
         top: 0;
-        background-image: url("../img/BG\ ISIAN.jpg");
+        background-image: url("../img/bg-buat-pantun.jpeg");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -22,20 +31,14 @@
     }
     .subtitle-style {
         color: #FDFEFF;
-        font-size: 6vw;
-        letter-spacing: 2px;
     }
-    .title-style {
+    .title-style h1 {
         color: #FDFEFF;
-        font-size: 8.5vw;
-        font-weight: 500;
-        letter-spacing: 1px;
-        line-height: 80%;
-    }
-    .title-style span {
-        color: #04ADC0;
+        font-size: 2rem;
         font-weight: bold;
-        -webkit-text-stroke: 1px #FDFEFF;
+    }
+    .title-style img {
+        max-width: 40vw;
     }
     .caption {
         color: #FDFEFF;
@@ -62,10 +65,12 @@
         object-fit: cover;
     }
     .head-img {
-        border-end-start-radius: 0.5rem;
-        border-end-end-radius: 0.5rem;
         width: 100vw;
         height: 250px;
+        object-fit: cover;
+    }
+    .banner-2 {
+        height: 100px;
         object-fit: cover;
     }
     .title-personal-data {
@@ -73,10 +78,11 @@
         font-weight: 300;
     }
     .title-personal-data span {
-        font-weight: 500;
+        font-weight: 600;
     }
     .form-personal-data {
-        font-family: 'Roboto', sans-serif;
+        background-color: #FDFEFF;
+        height: 100vh;
         padding-left: calc(var(--bs-gutter-x) * 1.5) !important;
         padding-right: calc(var(--bs-gutter-x) * 1.5) !important;
         margin-left: auto !important;
@@ -88,50 +94,52 @@
     .form-personal-data-input input {
         background-color: #D8E6F3;
     }
-    .form-personal-data-control {
-        color: #FDFEFF;
-        margin-top: 31vh;
+    .isi-pantun{
+        margin-top: 37vh;
     }
-    
-    .form-personal-data-control p {
-        margin-left: 31vw;
-        margin-bottom: 1vh;
-        color: #2D535E;
-        font-weight: bold;
-    }
-    .form-personal-data-control .ucapan-thanks {
-        margin-top: 5.6vh;
-    }
-    .form-personal-data-control .ucapan-thanks p {
-        color: #FDFEFF;
-        margin-left: 0;
-        font-weight: 300;
-        font-size: small;
-    }
-    .form-personal-data-control .ucapan-thanks p span {
-        font-weight: bold;
-    }
-    .form-personal-data-control .form-label {
-        font-size: small;
-    }
-    .form-personal-data-control input{
-        background-color: #37555D;
-        border: none;
-        height: 4vh;
-    }
-    .form-personal-data-control input::placeholder {
-        color: #FDFEFF;
-    }
-    .form-personal-data-control .isi-pantun {
-        margin-bottom: 8.1vh;
-        margin-left: 25vw;
+    .isi-pantun textarea{
         background: transparent;
+        height: 25vh;
         border: none;
         overflow: auto;
         outline: none;
         box-shadow: none;
         resize: none;
-        text-decoration-line: underline;
         text-decoration-color: #2D535E;
+        font-size: larger;
+        text-align: center;
+        line-height: 2.75rem;
+    }
+    .ucapan-thanks p {
+        color: #FDFEFF;
+        margin-left: 0;
+        font-weight: 300;
+        font-size: small;
+    }
+    .ucapan-thanks p span {
+        font-weight: bold;
+    }
+    .modal-content {
+        background-image: radial-gradient(circle, #22C4C7, #178D8F) !important;
+    }
+    .modal-backdrop {
+        background-color: transparent !important;
+        z-index: -1 !important;
+    }
+    .sharePic {
+        height: 50vh;
+        margin-top: 10vh;
+        margin-bottom: 20vh;
+    }
+    .container-sharePic {
+        background-color: #FDFEFF;
+        height: 100vh;
+    }
+    .container-sharePic a {
+        text-decoration: none;
+        color: #000;
+    }
+    .container-sharePic .col {
+        text-align: center;
     }
 }
