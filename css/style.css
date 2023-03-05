@@ -36,16 +36,12 @@ body {
         display: flex;
         align-items: center;
     }
-    .title-style h1 {
+    .title-style {
         color: #FDFEFF;
         font-size: 2rem;
         font-weight: bold;
         display: table-cell;
         vertical-align: middle;
-    }
-    .title-style img {
-        width: 10rem;
-        height: auto;
     }
     .caption {
         color: #FDFEFF;
@@ -54,6 +50,7 @@ body {
     .btn {
         background-color: #04ADC0 !important;
         width: 8rem;
+        box-shadow: 3px 6px;
     }
     .btn a {
         text-decoration: none;
@@ -129,10 +126,9 @@ body {
     .modal-content {
         background-image: radial-gradient(circle, #22C4C7, #178D8F) !important;
     }
-    .modal-backdrop {
-        background-color: transparent !important;
+    /* .modal-backdrop {        
         z-index: -1 !important;
-    }
+    } */
     .sharePic {
         height: 50vh;
         margin-top: 10vh;
