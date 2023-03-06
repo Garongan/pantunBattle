@@ -93,7 +93,7 @@ body {
         background-color: #D8E6F3;
     }
     .isi-pantun{
-        position: fixed;
+        position: absolute;
         top: 36%;
     }
     .isi-pantun textarea{
