@@ -59,7 +59,7 @@ body {
     }
     .carousel-item img {
         border-radius: 0.5rem;
-        height: 250px;
+        height: 160px;
         object-fit: cover;
     }
     .head-img {
@@ -68,6 +68,7 @@ body {
         object-fit: fill;
     }
     .banner-2 {
+        height: 160px;
         object-fit: cover;
     }
     .title-personal-data {
@@ -115,9 +116,11 @@ body {
         margin-left: 0;
         font-weight: 300;
         font-size: small;
+        text-align: center;
     }
     .ucapan-thanks p span {
         font-weight: bold;
+        text-align: center;
     }
     .modal-content {
         background-color: #FDFEFF;
