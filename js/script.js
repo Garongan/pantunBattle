@@ -4,3 +4,6 @@ function hideSubmitBtn() {
     }else
     document.getElementById("submit-share-button").style.display = "none";
 }
+function openTextareas() {  
+    document.getElementById("textareas").innerHTML = '<textarea name="isi-pantun" id="isi-pantun" rows="4" spellcheck="false" autofocus ></textarea>';
+}

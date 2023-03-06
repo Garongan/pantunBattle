@@ -40,15 +40,13 @@ body {
     } */
     .btn {
         background-color: #04ADC0 !important;
+        text-decoration: none;
+        color: #FDFEFF !important;
         width: 8rem;
         box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.75)!important;
     }
     .shadow-home {
         box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.3)!important;
-    }
-    .btn a {
-        text-decoration: none;
-        color: #FDFEFF !important;
     }
     .carousel-indicators {
         background-color: rgba(38, 71, 88, 0.6);
@@ -59,7 +57,7 @@ body {
     }
     .carousel-item img {
         border-radius: 0.5rem;
-        height: 160px;
+        height: 250px;
         object-fit: cover;
     }
     .head-img {
@@ -94,13 +92,13 @@ body {
         position: absolute;
         top: 36%;
     }
-    .isi-pantun button{
+    .isi-pantun .btn{
         margin-top: 20vh;
     }
     .isi-pantun textarea{
         background: transparent;
         width: 85vw;
-        /* border: none; */
+        border: none;
         overflow: auto;
         outline: none;
         box-shadow: none;
@@ -128,9 +126,6 @@ body {
     .modal-content p{
         color: #04ADC0;
     }
-    /* .modal-backdrop {        
-        z-index: -1 !important;
-    } */
     .sharePic {
         height: 50vh;
         margin-top: 10vh;
