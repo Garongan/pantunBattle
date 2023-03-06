@@ -105,10 +105,10 @@ body {
         box-shadow: none;
         resize: none;
         text-decoration-color: #2D535E;
-        font-size: 5vh;
+        font-size: 3vh;
         text-align: center;
         line-break: auto;
-        line-height: 7vh;
+        line-height: 6.575vh;
     }
     .ucapan-thanks p {
         color: #FDFEFF;
