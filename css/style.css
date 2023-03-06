@@ -19,7 +19,7 @@ body {
     .container-buat-pantun{
         position: fixed;
         top: 0;
-        background-image: url("../img/bg-buat-pantun.jpeg");
+        background-image: url("../img/BATTLE-PANTUN-IGS.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -34,10 +34,10 @@ body {
         display: table-cell;
         vertical-align: middle;
     }
-    .caption {
+    /* .caption {
         color: #FDFEFF;
         font-weight: 500;
-    }
+    } */
     .btn {
         background-color: #04ADC0 !important;
         width: 8rem;
@@ -93,6 +93,9 @@ body {
         position: absolute;
         top: 36%;
     }
+    .isi-pantun button{
+        margin-top: 25vh;
+    }
     .isi-pantun textarea{
         background: transparent;
         width: 85vw;
@@ -117,7 +120,10 @@ body {
         font-weight: bold;
     }
     .modal-content {
-        background-image: radial-gradient(circle, #22C4C7, #178D8F) !important;
+        background-color: #FDFEFF;
+    }
+    .modal-content p{
+        color: #04ADC0;
     }
     /* .modal-backdrop {        
         z-index: -1 !important;
