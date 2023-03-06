@@ -27,15 +27,10 @@ body {
     }
     .subtitle-style {
         color: #FDFEFF;
-    }
-    .title-style .center {
-        display: flex;
-        align-items: center;
+        font-size: 3.15vw;
+        font-weight: 500;
     }
     .title-style {
-        color: #FDFEFF;
-        font-size: 2rem;
-        font-weight: bold;
         display: table-cell;
         vertical-align: middle;
     }
@@ -46,7 +41,10 @@ body {
     .btn {
         background-color: #04ADC0 !important;
         width: 8rem;
-        box-shadow: 0.125rem 0.25rem rgba(0, 0, 0, 0.75);
+        box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.75)!important;
+    }
+    .shadow-home {
+        box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.3)!important;
     }
     .btn a {
         text-decoration: none;
@@ -70,7 +68,6 @@ body {
         object-fit: fill;
     }
     .banner-2 {
-        height: 100px;
         object-fit: cover;
     }
     .title-personal-data {
